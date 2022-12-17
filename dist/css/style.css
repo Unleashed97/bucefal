@@ -632,6 +632,19 @@ p {
 .section--apply .section__content {
   width: 100%;
 }
+.section--share .section__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section--share .section__title {
+  margin-bottom: 5px;
+}
+.section--share .section__subtitle {
+  max-width: 365px;
+  margin-bottom: 50px;
+  text-align: center;
+}
 
 .card__title {
   margin-bottom: 5px;
