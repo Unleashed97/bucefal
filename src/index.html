@@ -11,7 +11,65 @@
     @@include('html/partials/header.html')
 
     <!-- main -->
-    <main></main>
+    <main>
+        <!-- banner -->
+        <div class="banner">
+            <div class="container">
+                <div class="banner__inner">
+
+                    <div class="banner__text-block">
+                        <h1 class="banner__title">Двойной курс: <br> История + искусство</h1>
+
+                        <ul class="banner__list">
+                            <li class="banner__list-item">
+                                <span class="banner__list-item-icon">
+                                    <img src="img/icons/check.svg" alt="">
+                                </span>
+
+                                Вы изучите историю искусств от Древней Греции до Викторианской эпохи
+                            </li>
+                            <li class="banner__list-item">
+                                <span class="banner__list-item-icon">
+                                    <img src="img/icons/check.svg" alt="">
+                                </span>
+
+                                Вы будете понимать исторический контекст каждой эпохи, а также сможете безошибочно
+                                узнавать
+                                сюжеты
+                                исторических картин
+                            </li>
+                            <li class="banner__list-item">
+                                <span class="banner__list-item-icon">
+                                    <img src="img/icons/check.svg" alt="">
+                                </span>
+
+                                <del class="banner__old-price">9000₽</del> <span class="banner__new-price"> 6000₽ ДО
+                                    31</span>
+                                декабря
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="banner__image-block">
+                        <div class="banner__image-wrapper banner__image-wrapper--minor">
+                            <picture>
+                                <source srcset="img/banner/minor.webp">
+                                <img src="img/banner/minor.jpg" class="banner__image banner__image--minor"
+                                    alt="Триумф Галатеи - фреска работы Рафаэля Санти">
+                            </picture>
+                        </div>
+                        <div class="banner__image-wrapper">
+                            <picture>
+                                <source srcset="img/banner/main.webp">
+                                <img src="img/banner/main.jpg" class="banner__image banner__image--main"
+                                    alt="Афинская школа - фреска работы Рафаэля Санти">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <!-- footer include -->
     @@include('html/partials/footer.html')
 
