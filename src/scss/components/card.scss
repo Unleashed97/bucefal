@@ -1,0 +1,45 @@
+.card {
+    &__title {
+        margin-bottom: 5px;
+
+        font-family: $family-main;
+        font-size: 22px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    &__subtitle {
+        font-weight: 300;
+        text-align: center;
+    }
+
+    &__image-wrapper {
+        position: relative;
+
+        &::before {
+            content: '';
+
+            position: absolute;
+            top: -7px;
+            right: -10px;
+            z-index: -1;
+
+            width: 100%;
+            height: calc(100% + 14px);
+
+            background-image: url("data:image/svg+xml,%3Csvg width='352' height='414' viewBox='0 0 352 414' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.5 407.009V12.9826L351.5 0.51807V413.491L0.5 407.009Z' stroke='black' stroke-opacity='0.25'/%3E%3C/svg%3E%0A");
+
+            background-repeat: no-repeat;
+            background-position: right 0;
+            background-size: contain;
+        }
+    }
+
+    &__image {
+        display: block;
+        width: 100%;
+        max-width: 377px;
+        max-height: 377px;
+        margin-bottom: 15px;
+    }
+}

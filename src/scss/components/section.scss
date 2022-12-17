@@ -67,4 +67,16 @@
             text-align: center;
         }
     }
+
+    &--about-course {
+        .section__title {
+            margin-bottom: 30px;
+        }
+
+        .section__content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 50px 19px;
+        }
+    }
 }

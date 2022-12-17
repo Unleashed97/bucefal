@@ -43,6 +43,10 @@ p {
     margin: 0;
 }
 
+.highlight {
+    color: $colors-text-highlight;
+}
+
 // components
 @import 'components/header.scss';
 @import 'components/footer.scss';
@@ -50,3 +54,4 @@ p {
 @import 'components/btn.scss';
 @import 'components/banner.scss';
 @import 'components/section.scss';
+@import 'components/card.scss';
