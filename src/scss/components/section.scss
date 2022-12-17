@@ -79,4 +79,27 @@
             gap: 50px 19px;
         }
     }
+
+    &--result {
+        margin-bottom: 161px;
+
+        padding: 150px 0;
+        background-color: #fff3ed;
+        .section__title {
+            margin-bottom: 15px;
+
+            text-align: center;
+        }
+
+        .section__content {
+            display: flex;
+            justify-content: center;
+        }
+        .section__text {
+            max-width: 789px;
+
+            font-size: 22px;
+            text-align: center;
+        }
+    }
 }

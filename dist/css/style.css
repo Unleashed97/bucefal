@@ -549,6 +549,24 @@ p {
   grid-template-columns: repeat(3, 1fr);
   gap: 50px 19px;
 }
+.section--result {
+  margin-bottom: 161px;
+  padding: 150px 0;
+  background-color: #fff3ed;
+}
+.section--result .section__title {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.section--result .section__content {
+  display: flex;
+  justify-content: center;
+}
+.section--result .section__text {
+  max-width: 789px;
+  font-size: 22px;
+  text-align: center;
+}
 
 .card__title {
   margin-bottom: 5px;
