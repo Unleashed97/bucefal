@@ -34,7 +34,7 @@
         }
 
         .section__list-item-counter {
-            font-size: 22px;
+            font-size: 2.2rem;
         }
     }
 
@@ -81,7 +81,7 @@
     }
 
     &--result {
-        margin-bottom: 161px;
+        margin-bottom: 237px;
 
         padding: 150px 0;
         background-color: #fff3ed;
@@ -98,8 +98,61 @@
         .section__text {
             max-width: 789px;
 
-            font-size: 22px;
+            font-size: 2.2rem;
             text-align: center;
+        }
+    }
+
+    &--price {
+        margin-bottom: 277px;
+        .section__inner {
+            display: flex;
+            align-items: center;
+            gap: 122px;
+        }
+
+        .section__title {
+            margin-bottom: 10px;
+        }
+
+        .section__subtitle {
+            margin-bottom: 50px;
+
+            font-size: 2.2rem;
+        }
+
+        .section__price {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section__price-old {
+            font-size: 2.5rem;
+            color: rgba($colors-text, 0.45);
+        }
+
+        .section__price-new {
+            margin-bottom: 10px;
+
+            font-size: 4.5rem;
+            font-weight: 700;
+            color: $colors-text-highlight;
+        }
+
+        .section__price-text {
+            color: rgba($colors-text, 0.8);
+        }
+
+        .section__image-block {
+            position: relative;
+        }
+
+        .section__image {
+            &--minor {
+                position: absolute;
+                top: -76px;
+                right: 20px;
+            }
         }
     }
 }

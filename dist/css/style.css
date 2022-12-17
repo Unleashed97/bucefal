@@ -515,7 +515,7 @@ p {
   border-top: 1px solid #232325;
 }
 .section--about .section__list-item-counter {
-  font-size: 22px;
+  font-size: 2.2rem;
 }
 .section--how-it-works {
   padding: 100px 0;
@@ -550,7 +550,7 @@ p {
   gap: 50px 19px;
 }
 .section--result {
-  margin-bottom: 161px;
+  margin-bottom: 237px;
   padding: 150px 0;
   background-color: #fff3ed;
 }
@@ -564,8 +564,48 @@ p {
 }
 .section--result .section__text {
   max-width: 789px;
-  font-size: 22px;
+  font-size: 2.2rem;
   text-align: center;
+}
+.section--price {
+  margin-bottom: 277px;
+}
+.section--price .section__inner {
+  display: flex;
+  align-items: center;
+  gap: 122px;
+}
+.section--price .section__title {
+  margin-bottom: 10px;
+}
+.section--price .section__subtitle {
+  margin-bottom: 50px;
+  font-size: 2.2rem;
+}
+.section--price .section__price {
+  display: flex;
+  flex-direction: column;
+}
+.section--price .section__price-old {
+  font-size: 2.5rem;
+  color: rgba(25, 25, 27, 0.45);
+}
+.section--price .section__price-new {
+  margin-bottom: 10px;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #ff5c00;
+}
+.section--price .section__price-text {
+  color: rgba(25, 25, 27, 0.8);
+}
+.section--price .section__image-block {
+  position: relative;
+}
+.section--price .section__image--minor {
+  position: absolute;
+  top: -76px;
+  right: 20px;
 }
 
 .card__title {
