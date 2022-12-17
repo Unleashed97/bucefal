@@ -16,6 +16,14 @@
         padding: 20px 30px;
     }
 
+    &--md {
+        padding: 10px;
+        min-width: 205px;
+        min-height: 64px;
+
+        font-size: 2rem;
+    }
+
     &--orange {
         background-color: $colors-btn-bg;
         color: #fff;

@@ -155,4 +155,30 @@
             }
         }
     }
+
+    &--apply {
+        .section__inner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section__title {
+            max-width: 526px;
+            margin-bottom: 5px;
+
+            text-align: center;
+        }
+
+        .section__subtitle {
+            max-width: 365px;
+            margin-bottom: 50px;
+
+            font-size: 1.8rem;
+            text-align: center;
+        }
+
+        .section__content {
+            width: 100%;
+        }
+    }
 }
