@@ -1,0 +1,40 @@
+.section {
+    margin-bottom: 200px;
+    &__title {
+        font-size: 3rem;
+        font-family: $family-title;
+        color: $colors-text;
+        font-weight: 400;
+    }
+
+    &--about {
+        .section__inner {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .section__title {
+            margin-bottom: 39px;
+        }
+
+        .section__list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .section__list-item {
+            display: flex;
+            justify-content: space-between;
+            gap: 100px;
+            padding-top: 15px;
+
+            border-top: 1px solid #232325;
+        }
+
+        .section__list-item-counter {
+            font-size: 22px;
+        }
+    }
+}

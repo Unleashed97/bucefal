@@ -392,6 +392,10 @@ p {
   padding: 0 20px;
   margin: 0 auto;
 }
+.container--md {
+  max-width: 1230px;
+  padding: 0;
+}
 
 .btn {
   padding: 0;
@@ -416,6 +420,9 @@ p {
   background-color: #ff8d4c;
 }
 
+.banner {
+  margin-bottom: 200px;
+}
 .banner__inner {
   display: flex;
   align-items: center;
@@ -472,4 +479,37 @@ p {
   background-image: url("data:image/svg+xml,%3Csvg width='213' height='379' viewBox='0 0 213 379' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M212 360.821L1 377.916V1.08105L212 17.5422V360.821Z' stroke='black' stroke-opacity='0.25' stroke-width='2'/%3E%3C/svg%3E%0A");
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.section {
+  margin-bottom: 200px;
+}
+.section__title {
+  font-size: 3rem;
+  font-family: "Playfair Display SC", serif;
+  color: #19191b;
+  font-weight: 400;
+}
+.section--about .section__inner {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.section--about .section__title {
+  margin-bottom: 39px;
+}
+.section--about .section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.section--about .section__list-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding-top: 15px;
+  border-top: 1px solid #232325;
+}
+.section--about .section__list-item-counter {
+  font-size: 22px;
 }
