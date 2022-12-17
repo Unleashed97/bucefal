@@ -356,7 +356,7 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 ul {
@@ -378,4 +378,40 @@ h5,
 h6,
 p {
   margin: 0;
+}
+
+.header__inner {
+  padding: 40px 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.btn--sm {
+  padding: 20px 30px;
+}
+.btn--orange {
+  background-color: #ff5c00;
+  color: #fff;
+  transition: background-color 0.3s linear;
+}
+.btn--orange:hover {
+  background-color: #ff8d4c;
 }

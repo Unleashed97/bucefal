@@ -1,2 +1,9 @@
 .header {
+    &__inner {
+        padding: 40px 0 30px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
