@@ -1028,7 +1028,9 @@ p {
   display: none;
   align-items: center;
   justify-content: center;
+  padding: 20px;
   background-color: rgba(0, 0, 0, 0.47);
+  overflow: auto;
 }
 .modal.active {
   display: flex;
@@ -1045,6 +1047,13 @@ p {
   width: 100%;
   padding: 74px 30px 30px;
   background-color: #fff;
+  overflow-y: auto;
+  margin: auto 0;
+}
+@media (max-width: 576px) {
+  .modal__inner {
+    padding: 57px 15px 15px;
+  }
 }
 .modal .section {
   margin-bottom: 0;
