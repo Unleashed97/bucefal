@@ -17,3 +17,13 @@ export const handleModal = () => {
         }
     })
 }
+
+export const handleForm = () => {
+    const formList = document.querySelectorAll('.form')
+
+    formList.forEach((form) =>
+        form.addEventListener('submit', (e) => {
+            e.preventDefault()
+        }),
+    )
+}
