@@ -5,15 +5,19 @@ export const handleModal = () => {
 
     modalOpenBtn.addEventListener('click', () => {
         modal.classList.add('active')
+
+        document.body.classList.add('fixed')
     })
 
     modalClose.addEventListener('click', () => {
         modal.classList.remove('active')
+        document.body.classList.remove('fixed')
     })
 
     window.addEventListener('click', ({ target }) => {
         if (target === modal) {
             modal.classList.remove('active')
+            document.body.classList.remove('fixed')
         }
     })
 }
