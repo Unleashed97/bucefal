@@ -199,4 +199,18 @@
             text-align: center;
         }
     }
+
+    &--faq {
+        .section__title {
+            margin-bottom: 50px;
+
+            text-align: center;
+        }
+
+        .section__content {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    }
 }

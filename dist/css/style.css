@@ -356,6 +356,7 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: #19191b;
   font-size: 1.8rem;
 }
 
@@ -645,6 +646,15 @@ p {
   margin-bottom: 50px;
   text-align: center;
 }
+.section--faq .section__title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.section--faq .section__content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 .card__title {
   margin-bottom: 5px;
@@ -712,4 +722,35 @@ p {
 }
 .form__submit {
   margin: 0 auto;
+}
+
+.accordion {
+  max-width: 590px;
+}
+.accordion__item {
+  margin-bottom: 50px;
+}
+.accordion__item:last-child {
+  margin-bottom: 0;
+}
+.accordion__item.active .accordion__btn {
+  border-bottom: 0;
+}
+.accordion__item.active .accordion__item-content {
+  display: block;
+}
+.accordion__btn {
+  width: 100%;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #19191b;
+  border-bottom: 1px solid #232325;
+}
+.accordion__item-content {
+  display: none;
+  padding-top: 15px;
 }
