@@ -8,6 +8,10 @@
         margin-bottom: 150px;
     }
 
+    @media (max-width: $sm) {
+        padding-top: 130px;
+    }
+
     &__inner {
         display: flex;
         align-items: center;

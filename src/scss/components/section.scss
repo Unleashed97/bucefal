@@ -260,8 +260,6 @@
                 max-width: 100%;
                 height: auto;
 
-                // margin: 0 -20px;
-
                 &--minor {
                     width: auto;
                 }
@@ -313,6 +311,8 @@
         }
         .section__title {
             margin-bottom: 5px;
+
+            text-align: center;
         }
 
         .section__subtitle {
@@ -320,16 +320,6 @@
             margin-bottom: 50px;
 
             text-align: center;
-
-            @media (max-width: $sm) {
-                text-align: left;
-            }
-        }
-
-        .section__btn {
-            @media (max-width: $sm) {
-                margin-right: auto;
-            }
         }
     }
 
