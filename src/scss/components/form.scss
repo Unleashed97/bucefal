@@ -27,6 +27,8 @@
         border-radius: 0;
         border-bottom: 1px solid #232325;
 
+        outline: none;
+
         &::placeholder {
             color: rgba($colors-text, 0.45);
         }
