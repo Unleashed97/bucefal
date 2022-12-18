@@ -56,3 +56,14 @@ export const handleAccordion = () => {
         }),
     )
 }
+
+export const createShareLink = () => {
+    const shareLink = document.querySelector('.share-link')
+
+    const title = document.title
+    const url = document.location.origin
+
+    const link = `https://vk.com/share.php?url=${url}/&title=${title}`
+
+    shareLink.setAttribute('href', link)
+}
