@@ -1,11 +1,25 @@
 .banner {
     margin-bottom: 200px;
+    overflow: hidden;
+
+    @media (max-width: $md) {
+        margin-bottom: 150px;
+    }
 
     &__inner {
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 20px;
+
+        @media (max-width: $lg) {
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        @media (max-width: $sm) {
+            gap: 128px;
+        }
     }
 
     &__text-block {
@@ -17,6 +31,10 @@
 
         font-size: 5rem;
         font-weight: 400;
+
+        @media (max-width: $sm) {
+            font-size: 3rem;
+        }
     }
 
     &__list {
@@ -28,11 +46,17 @@
     &__list-item {
         display: flex;
         gap: 15px;
+
+        font-size: 1.5rem;
     }
 
     &__old-price {
-        font-size: 15px;
+        font-size: 1.5rem;
         color: rgba($colors-text, 0.5);
+
+        @media (max-width: $sm) {
+            font-size: 1.2rem;
+        }
     }
 
     &__new-price {
@@ -43,13 +67,26 @@
     &__image-block {
         position: relative;
 
-        // margin-left: 92px;
+        margin-left: 203px;
 
         right: -92px;
+
+        @media (max-width: $lg) {
+            right: auto;
+        }
+
+        @media (max-width: $sm) {
+            margin-left: 0;
+            margin: 0 -10px;
+        }
     }
 
     &__image-wrapper {
         position: relative;
+
+        @media (max-width: $sm) {
+            margin: 0 -20px;
+        }
 
         &--minor {
             position: absolute;
@@ -57,6 +94,14 @@
             top: 50%;
             transform: translateY(-50%);
             z-index: 1;
+
+            @media (max-width: $sm) {
+                right: 20px;
+                left: auto;
+                top: -78px;
+
+                transform: translateY(0);
+            }
         }
 
         &::before {
@@ -76,6 +121,20 @@
             background-repeat: no-repeat;
 
             background-size: contain;
+
+            @media (max-width: $sm) {
+                display: none;
+            }
+        }
+    }
+
+    &__image {
+        @media (max-width: $sm) {
+            &--main {
+                display: block;
+                max-width: 100%;
+                height: auto;
+            }
         }
     }
 }
