@@ -742,6 +742,7 @@ p {
 }
 
 .accordion {
+  width: 100%;
   max-width: 590px;
 }
 .accordion__item {
@@ -766,6 +767,11 @@ p {
   font-weight: 600;
   color: #19191b;
   border-bottom: 1px solid #232325;
+}
+.accordion__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .accordion__item-content {
   display: none;

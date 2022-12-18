@@ -1,4 +1,5 @@
 .accordion {
+    width: 100%;
     max-width: 590px;
     &__item {
         margin-bottom: 50px;
@@ -31,6 +32,12 @@
         color: $colors-text;
 
         border-bottom: 1px solid #232325;
+    }
+
+    &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     &__item-content {
