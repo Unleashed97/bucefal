@@ -392,6 +392,20 @@ p {
   justify-content: space-between;
 }
 
+.footer {
+  padding: 50px 0;
+  background-color: #232325;
+  color: #fff;
+}
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__logo {
+  margin-bottom: 60px;
+}
+
 .container {
   max-width: 1240px;
   padding: 0 20px;
@@ -646,6 +660,9 @@ p {
   margin-bottom: 50px;
   text-align: center;
 }
+.section--faq {
+  margin-bottom: 150px;
+}
 .section--faq .section__title {
   margin-bottom: 50px;
   text-align: center;
@@ -753,4 +770,23 @@ p {
 .accordion__item-content {
   display: none;
   padding-top: 15px;
+}
+
+.contacts {
+  margin-bottom: 50px;
+}
+.contacts__title {
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+.contacts__email {
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }

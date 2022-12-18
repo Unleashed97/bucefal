@@ -1,0 +1,14 @@
+.contacts {
+    margin-bottom: 50px;
+    &__title {
+        margin-bottom: 20px;
+
+        font-size: 2.2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    &__email {
+        text-align: center;
+    }
+}
