@@ -26,13 +26,6 @@ export const handleModal = () => {
             enableBodyScroll(modal)
         }
     })
-
-    window.addEventListener('scroll', () => {
-        document.documentElement.style.setProperty(
-            '--scroll-y',
-            `${window.scrollY}px`,
-        )
-    })
 }
 
 export const handleForm = () => {

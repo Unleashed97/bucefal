@@ -21,6 +21,9 @@ body {
     font-family: $family-main;
     color: $colors-text;
     font-size: 1.8rem;
+
+    position: relative;
+    height: 100%;
 }
 
 ul {
