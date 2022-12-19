@@ -17,8 +17,16 @@ export const handleModal = () => {
     window.addEventListener('click', ({ target }) => {
         if (target === modal) {
             modal.classList.remove('active')
+
             document.body.classList.remove('fixed')
         }
+    })
+
+    window.addEventListener('scroll', () => {
+        document.documentElement.style.setProperty(
+            '--scroll-y',
+            `${window.scrollY}px`,
+        )
     })
 }
 
